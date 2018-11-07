@@ -23,7 +23,6 @@ let greeting = fmt('hi %@', name); //=> 'hi Alex'
 
 * `git clone` this repository
 * `npm install`
-* `bower install`
 
 ## Running
 

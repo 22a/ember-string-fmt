@@ -1,6 +1,5 @@
-/* jshint node: true */
-'use strict';
+'use strict'
 
 module.exports = {
-  name: 'ember-string-fmt'
-};
+  name: require('./package').name,
+}

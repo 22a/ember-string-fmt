@@ -1,7 +1,5 @@
-import Ember from 'ember';
-
-let inspect = Ember.inspect;
-let isArray = Ember.isArray;
+import { isArray } from '@ember/array';
+import { inspect } from '@ember/debug';
 
 export default function(str, formats) {
   var cachedFormats = formats;
